@@ -1,0 +1,38 @@
+.float-right{
+    float: right;
+}
+
+.float-left{
+    float: left;
+}
+body{
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: pink;
+}
+/* #container {
+    background-color: lightblue;
+    width: 1200px;
+} */
+.content-box {
+    width: 340px;
+    height: 200px;
+    background-color: white;
+    margin: 20px auto; 
+    border: black 2px solid;
+    clear: both;
+}
+
+#color-box{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+#pDiv {
+    overflow:scroll;
+}
+.para {
+    display: block;
+    word-wrap: break-word;    
+}
