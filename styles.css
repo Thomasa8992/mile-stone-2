@@ -21,6 +21,8 @@ body{
     margin: 20px auto; 
     border: black 2px solid;
     clear: both;
+    overflow:scroll;
+    
 }
 
 #color-box{
@@ -30,7 +32,6 @@ body{
 }
 
 #pDiv {
-    overflow:scroll;
 }
 .para {
     display: block;

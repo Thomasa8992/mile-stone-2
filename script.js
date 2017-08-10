@@ -89,9 +89,8 @@ console.log(changeBtn);
 changeBtn.addEventListener("click", function(){
     var newArray = friends.splice(0,0);
     for(var i = 0; i < friends.length; i++){
-        var lis = document.querySelector('.li');      
+        var lis = document.querySelector('.li');  
         lis.innerText = sentenceSplit[i];
-        console.log(sentenceSplit[i]);
     }
         
 });
